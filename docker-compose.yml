@@ -30,7 +30,7 @@ services:
     volumes:
       - ./work/conf/nginx:/etc/nginx
       - type: bind
-        source: d:/app
+        source: ../app
         target: /app
       - type: bind
         source: ./work/logs/nginx

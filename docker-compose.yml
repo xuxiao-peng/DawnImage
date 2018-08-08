@@ -49,7 +49,7 @@ services:
     volumes:
       - ./work/conf/php/etc:/usr/local/etc
       - ./work/logs/php-fpm:/usr/local/etc/log/php-fpm
-      - d:/app:/app
+      - ../app:/app
     networks: 
       - frontend
     restart: always
